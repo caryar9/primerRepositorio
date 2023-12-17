@@ -1,0 +1,32 @@
+.titulo {
+    text-align: center;
+   color: rgb(174, 89, 253);
+   background-color: blue;
+  }
+  .txt    {
+  color: rgb(47, 0, 255);
+  font-size: xx-large;
+
+}
+.txt1 {
+  font-style: oblique;
+  font-size: xx-large;
+  color: red;
+  
+}
+.img1 {
+  border: 5px solid black;
+  height: 200px;
+  width: 200px;
+}
+.img2 {
+  border: 5px solid red;
+  height: 200px;
+}
+.img3 {
+  height: 30px;
+}
+.boton {
+  height: 20px;
+  width: 60px;
+}
