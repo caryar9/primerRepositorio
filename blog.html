@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Encuesta sobre que me invitaras</h2>
+
+    <form action="procesar_encuesta.php" method="post">
+        <label for="pregunta1">1. ¿Cuál es son tus papitas favoritas?</label>
+        <input type="radio" name="pregunta1" value="opcion1" id="opcion1">
+        <label for="opcion1">sabritas</label>
+        <input type="radio" name="pregunta1" value="opcion2" id="opcion2">
+        <label for="opcion2">rufles</label>
+        <input type="radio" name="pregunta1" value="opcion3" id="opcion3">
+        <label for="opcion3">chetos</label>
+<br>
+        <label for="pregunta2">2. ¿que juguito me vas a invitar?</label>
+        <input type="radio" name="pregunta2" value="laptop" id="laptop">
+        <label for="laptop">boing</label>
+        <input type="radio" name="pregunta2" value="desktop" id="desktop">
+        <label for="desktop">jarrito</label>
+        <input type="radio" name="pregunta2" value="tablet" id="tablet">
+        <label for="tablet">fanta</label>
+<br>
+        <label for="pregunta3">3. ¿que mas me vas a invitar?</label>
+        <input type="radio" name="pregunta3" value="desarrollo" id="desarrollo">
+        <label for="desarrollo">galletas</label>
+        <input type="radio" name="pregunta3" value="redes" id="redes">
+        <label for="redes">chocolate</label>
+        <input type="radio" name="pregunta3" value="seguridad" id="seguridad">
+        <label for="seguridad">paleta</label>
+
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+
+</body>
+</html>
