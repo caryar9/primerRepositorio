@@ -1,0 +1,137 @@
+#titulo {
+    color: red;
+    font-size: xx-large;
+}
+p.texto {
+    color:rgb(0, 238, 255);
+}
+p.especial {
+    color:rgba(248, 45, 197, 0.534);
+}
+div p {
+    color:rgb(0, 4, 255);
+}
+div h2 {
+    color:pink;
+}
+div h3 {
+    color:#15ff00;
+}
+
+.color {
+    color: #15ff00;
+    font-size: xxx-large;
+    border: 60px;
+    padding: 60px;
+    
+
+}
+.color {
+    border-style: dashed;
+    border-color:rgb(42, 165, 58);
+    border-width: .5rem;
+    border-radius: 1px
+}
+#fondo{
+    background-color: rgba(248, 45, 197, 0.534);
+    height: 200px;
+        background: #15ff00 
+        url("pollito.jpg") repeat-x 
+        center top / 200px 300px; 
+        margin: 100px 300px ;
+        font-size: xxx-large;
+        color: #15ff00;
+        padding: 60px 50px 50px 100px; 
+}
+.margen {
+    background-color: rgba(48, 48, 216, 0.616);
+    margin: 50px 50px 50px 550px;
+    color: white;
+    padding: 30px 30px 30px 70px;
+    border: solid 3px red;
+    height: 100px;
+    width: 600px;
+    overflow: hidden;
+    outline: 5px solid blue ;
+    }
+.texto {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-shadow: 10px 5px 5px black;
+    font-family: 'oswald' Georgia, 'Times New Roman', Times, serif
+}
+a:link {
+    color: #15ff00;
+    margin: 50px 50px 50px 200px;
+    padding: 10px 10px 10px 60px;
+    border: solid 5px red;
+}
+a:visited {
+    color: blue;
+    background: #15ff00;
+}
+a:hover {   
+    color: yellow;
+    
+}
+a:active {
+    color: red;
+    background: pink;
+}
+ul {
+    background-color: aquamarine;
+    list-style-position: inside;
+    list-style: circle;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px red;
+    padding: 5px;
+}
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: rgba(205, 199, 209, 0.795);
+}
+tr:hover{
+    background-color: rgb(131, 129, 129);
+    cursor: pointer;
+}
+span{
+    display:block;
+    max-width: 300px;
+    background-color: blue;
+}
+.inline {
+    display: inline;   
+}
+#position {
+    position: sticky;
+    left: 80px; 
+}
+.left {
+    float: left;
+    width: 200px;
+}
+.right {
+    float: right;
+}
+.center {
+    float: center;
+}
+.container {
+    height: 200px;
+}
+.center {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
